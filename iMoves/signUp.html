@@ -18,9 +18,7 @@
 </header>
 <body>
     <div>
-        <br>
         Please ask a parent or gardian to fill in the boxes below
-        <br>
     </div>
     <div>
         <table class="signUpT">
@@ -60,8 +58,18 @@
         popup.classList.toggle("show");
       }
     </script>
-    <div class="popup" onclick="myFunction()">Submit
+    <table>
+        <tr>
+    <td><div class="popup" onclick="myFunction()">Submit
         <span class="popuptext" id="myPopup">Thank you for joining iMoves. Your username will be emailed to you shortly. Just keep iMoving!</span>
-    </div>
+    </div></td>
+    <td><div>
+        <button class="clearButton" onClick="window.location.reload();">Clear</button>
+    </div></td>
+    <td><div>
+        <a href="welcome.html"><button class="cancelButton" Todays moves>Cancel</button></a>
+    </div></td>
+        </tr>
+    </table>
 </body>
 </html>
