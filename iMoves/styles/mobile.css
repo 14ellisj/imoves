@@ -105,3 +105,32 @@ body {
     bottom: 0;
     width: 100%;
   }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 200px;
+}
+.responsive {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+}
+.right {
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+}
+.btn{
+  display: inline-block; 
+  margin-right: 20px;
+}
+
