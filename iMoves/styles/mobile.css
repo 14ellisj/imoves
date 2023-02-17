@@ -8,24 +8,27 @@ body {
   }
   header {
     font-family: helvetica, arial, sans-serif;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 10%;
   }
   .logo {
     display: block;
     margin-left: 0;
-    margin-right: auto;
-    width: 30%;
+    width: 70px;
+    height: 70px;
   }
   .favouritesLogo {
     display: block;
     margin-left: auto;
     margin-right: 0;
     width: 30%;
-  }
-  .vidEx {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
   }
   .nextReward {
     width: 30%;
@@ -45,68 +48,198 @@ body {
   table{
     width: 100%;
   }
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+  .videos{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+  .container{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
   }
-  
-  button:hover {
-    opacity: 0.8;
+  .section{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
-  
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-  }
-  
-  .imgcontainer {
+  h1{
     text-align: center;
-    /*margin: 24px 0 12px 0;*/
+    margin: 0;
   }
-  
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
-  
-  
-  span.psw {
-    float: right;
-    padding-top: 16px;
-  }
-  
-  
-  @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-  }
-  .center {
+  h3{
     text-align: center;
   }
-  img {
+  .tryButton{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 140%;
+    color: #008a09;
+  }
+  .LSButton{
+    background-color: transparent;
+    border-color: transparent;
+  }
+  #likeButton{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
+    width: 50px;
   }
-  
-  
+  #saveButton{
+    display: block;
+    margin-right: 0;
+    width: 50px;
+  }
+  footer{
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+  }
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5%;
+  border: 3px solid #00ff00;
+  border-radius: 10%; 
+  margin-left: 30%;
+  background-color: transparent;
+}
+.cancelButton{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5%;
+  border: 3px solid #ff0000;
+  border-radius: 10%; 
+  margin-left: 10%;
+  background-color: transparent;
+}
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  padding: 8px 0;
+}
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.signUpT{
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+tr{
+  padding: 5%;
+}
+th, td {
+  padding-top: 3%;
+}
+.clearButton{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5%;
+  border: 3px solid hsl(52, 100%, 50%);
+  border-radius: 10%; 
+  margin-left: 10%;
+  background-color: transparent;
+}
+.centerW {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.backButton{
+  border: transparent;
+  background-color: transparent;
+  margin-left: 40%;
+  margin-top: 10px;
+}
+.welcomeButtonsSI{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: transparent;
+  background-color: transparent;
+  font-size: 200%;
+}
+.welcomeButtonsSU{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: transparent;
+  background-color: transparent;
+  font-size: 180%;
+}
+.welcomeButtonsH{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  border: transparent;
+  background-color: transparent;
+  font-size: 180%;
+}
+.footerWel{
+  border-top: 1px solid #683384;
+  margin: 0px 10px 0px 10px;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+  margin: auto;
+  position: fixed;
+}
+.PNumber{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.helpForm{
+  margin-right: 10%;
+}
+.signUpIntro{
+  margin: 5%;
+}
