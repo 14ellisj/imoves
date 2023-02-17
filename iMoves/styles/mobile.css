@@ -15,24 +15,18 @@ body {
     height: auto;
     margin: auto;
     margin-top: -20px;
+    margin-bottom: 10%;
   }
   .logo {
     display: block;
     margin-left: 0;
     width: 70px;
     height: 70px;
-
   }
   .favouritesLogo {
     display: block;
     margin-right: 0;
     width: 70px;
-  }
-  .vidEx {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
   }
   .nextReward {
     display: block;
@@ -83,21 +77,29 @@ body {
     text-align: center;
   }
   .tryButton{
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 140%;
+    color: #008a09;
   }
-  .likeButton{
+  .LSButton{
+    background-color: transparent;
+    border-color: transparent;
+  }
+  #likeButton{
     display: block;
     margin-right: 0;
     width: 50px;
   }
-  .saveButton{
+  #saveButton{
     display: block;
     margin-right: 0;
     width: 50px;
   }
   footer{
-    position: sticky;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -108,8 +110,19 @@ body {
   cursor: pointer;
   padding: 5%;
   border: 3px solid #00ff00;
-  border-radius: 5%; 
+  border-radius: 10%; 
   margin-left: 30%;
+  background-color: transparent;
+}
+.cancelButton{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5%;
+  border: 3px solid #ff0000;
+  border-radius: 10%; 
+  margin-left: 10%;
+  background-color: transparent;
 }
 .popup .popuptext {
   visibility: hidden;
@@ -150,25 +163,22 @@ body {
   to {opacity:1 ;}
 }
 .signUpT{
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+tr{
   padding: 5%;
+}
+th, td {
+  padding-top: 3%;
 }
 .clearButton{
   position: relative;
   display: inline-block;
   cursor: pointer;
   padding: 5%;
-  border: 3px solid #ffdd00;
-  border-radius: 5%; 
-  margin-left: 10%;
-  background-color: transparent;
-}
-.cancelButton{
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  padding: 5%;
-  border: 3px solid #ff0000;
-  border-radius: 5%; 
+  border: 3px solid hsl(52, 100%, 50%);
+  border-radius: 10%; 
   margin-left: 10%;
   background-color: transparent;
 }
@@ -226,4 +236,16 @@ body {
   text-align: center;
   font-style: italic;
   margin: auto;
+  position: fixed;
+}
+.PNumber{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.helpForm{
+  margin-right: 10%;
+}
+.signUpIntro{
+  margin: 5%;
 }
