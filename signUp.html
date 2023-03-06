@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>iMoves: Sign Up</title>
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width : 720px)" />
+    <link rel="javascript" href="myscripts.js" />
+</head>
+<header>
+    <table>
+        <tr>
+            <td><h1>Welcome to pick-l!</h1></td>
+        </tr>
+    </table>
+</header>
+<body>
+    <div class="signUpIntro">
+        Please ask a parent or gardian to fill in the boxes below
+    </div>
+    <div>
+        <table class="signUpT">
+            <tr>
+                <td>First Name: </td>
+                <td><input type="text" placeholder="First Name" name="uname" required></td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td><input type="text" placeholder="Last Name" name="uname" required></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" placeholder="Enter Email" name="uname" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number: </td>
+                <td><input type="number" placeholder="Enter Number" name="uname" required></td>
+            </tr>
+            <tr>
+                <td>Set Password: </td>
+                <td><input type="text" placeholder="Enter Password" name="psw" required></td>
+            </tr>
+            <tr>
+                <td>Confirm Password: </td>
+                <td><input type="text" placeholder="Re-Enter Password" name="psw" required></td>
+            </tr>
+            <tr>
+                <td>Payment Options: </td>
+                <td><input type="text" placeholder="Please choose payment option" name="payment" required></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
+    <table>
+        <tr>
+    <td><div class="popup" onclick="myFunction()">Submit
+        <span class="popuptext" id="myPopup">Thank you for joining iMoves. Your username will be emailed to you shortly. Just keep iMoving!</span>
+    </div></td>
+    <td><div>
+        <button class="clearButton" onClick="window.location.reload();">Clear</button>
+    </div></td>
+    <td><div>
+        <a href="welcome.html"><button class="cancelButton" Todays moves>Cancel</button></a>
+    </div></td>
+        </tr>
+    </table>
+</body>
+<footer class="footerWel">
+    <p>imoves active education ltd t/a imoves. 109 Rustlings Road, Sheffield, S11 7AB<br><br>
+        We are registered in England & Wales under registration number 07234665. Our VAT number is 990 2257 12.</p>
+</footer>
+</html>
