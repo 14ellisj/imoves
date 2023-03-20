@@ -1,27 +1,35 @@
 body {
   font-family: helvetica, arial, sans-serif;
   font-size: 1em;
-  padding: 3%;
-  background-color: #D8CBDF;
-  color: #683384;
+  background-color: #a4a7ff;
+  color: #ffffff;
+  margin: 0px;
+  height: 90%;
+}
+.indexBody{
+  background-color: transparent;
+  margin-bottom: 100px;
+}
+.logoIndex{
+  position: absolute;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  top: 6%;
 }
 header {
   font-family: helvetica, arial, sans-serif;
-  position: sticky;
   left: 0;
   top: 0;
   width: 100%;
   display: block;
-  height: auto;
-  margin: auto;
-  margin-top: -20px;
-  margin-bottom: 10%;
+  height: 10%;
+  margin-left: auto;
+  background-color: transparent;
+  margin-right: auto;
 }
-.logo {
-  display: block;
-  margin-left: 0;
-  width: 70px;
-  height: 70px;
+.logo{
+  height: 10%;
+  width: 60%;
 }
 .favouritesLogo {
   display: block;
@@ -37,7 +45,7 @@ header {
 }
 .barPlace {
   display: block;
-  margin-right: 0;
+  margin-right: 50%;
   width: 120px;
   position: relative;
 }
@@ -52,12 +60,11 @@ header {
 }
 table{
   width: 100%;
-  background-color: #D8CBDF;
+  background-color: #a5a8ff;
+  color: #ffffff;
 }
 .videos{
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 100%;
 }
 .container{
   height: 100vh;
@@ -168,9 +175,11 @@ padding-top: 10%;
 }
 tr{
 padding: 5%;
+color: #ffffff;
 }
 th, td {
 padding-top: 3%;
+color: #ffffff;
 }
 .clearButton{
 position: relative;
@@ -230,7 +239,7 @@ background-color: transparent;
 font-size: 180%;
 }
 .footerWel{
-border-top: 1px solid #683384;
+border-top: 1px solid #ffffff;
 margin: 0px 10px 0px 10px;
 font-size: 0.8em;
 text-align: center;
