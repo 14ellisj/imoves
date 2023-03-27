@@ -16,6 +16,24 @@ body {
   transform: translate(-50%, -50%);
   top: 6%;
 }
+.cameraIndex{
+  position: absolute;
+  top: 6%;
+  left: 6%;
+}
+.pickleIndex{
+  position: absolute;
+  top: 6%;
+  left: 90%;
+}
+.pickleImageI{
+  height: 10%;
+  width: 60%;
+}
+.cameraIcon{
+  height: 10%;
+  width: 60%;
+}
 header {
   font-family: helvetica, arial, sans-serif;
   left: 0;
@@ -109,7 +127,7 @@ footer{
   position: absolute;
   left: 0;
   bottom: 0%;
-  width: 100%;
+  width: 10%;
 }
 .popup {
 position: relative;
