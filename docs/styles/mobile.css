@@ -24,10 +24,15 @@ body {
 .pickleIndex{
   position: absolute;
   top: 6%;
-  left: 99%;
+  left: 90%;
 }
 .pickleImageI{
-  width:0%;
+  height: 10%;
+  width: 60%;
+}
+.cameraIcon{
+  height: 10%;
+  width: 60%;
 }
 header {
   font-family: helvetica, arial, sans-serif;
