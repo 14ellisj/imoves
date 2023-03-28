@@ -154,3 +154,23 @@ body {
   margin-left: 60%;
   margin-right: 20px;
 }
+
+.bottom
+{
+  display: block;
+  margin-top: 65%;
+}
+
+.l2
+{
+  
+  display: inline-block;
+  left: 34px;
+}
+
+.r2
+{
+  
+  display: inline-block;
+  right: 34px;
+}
