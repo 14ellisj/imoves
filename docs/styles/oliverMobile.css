@@ -157,20 +157,34 @@ body {
 
 .bottom
 {
-  display: block;
-  margin-top: 65%;
+  position: fixed;
+  display:block;
+  top: 175px;
+  left: 60px;
+}
+
+.b2
+{
+  position: relative;
+  margin-top: 40px;
 }
 
 .l2
 {
-  
   display: inline-block;
-  left: 34px;
+  top: 190px;
+  margin-left: 16px;
+}
+
+.cen
+{
+  display: inline-block;
+  margin-left: 20px; 
 }
 
 .r2
 {
-  
   display: inline-block;
-  right: 34px;
+  margin-left: 17px;
+
 }
