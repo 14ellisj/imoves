@@ -17,10 +17,11 @@ body {
     margin-top: -20px;
   }
   .logo {
+    position: fixed;
     display: block;
-    margin-left: 0;
-    width: 70px;
-    height: 70px;
+    margin-left: 130px;
+    width: 10%;
+    height: 60%;
 
   }
   .favouritesLogo {
@@ -159,7 +160,7 @@ body {
 {
   position: fixed;
   display:block;
-  top: 175px;
+  top: 181px;
   left: 60px;
 }
 
@@ -171,20 +172,36 @@ body {
 
 .l2
 {
-  display: inline-block;
-  top: 190px;
+  position: relative;
+  top: 20px;
   margin-left: 16px;
+  display: inline-block;
 }
 
 .cen
 {
+  position: relative;
+  top: 20px;
   display: inline-block;
   margin-left: 20px; 
 }
 
 .r2
 {
+  position: relative;
+  top: 20px;
   display: inline-block;
   margin-left: 17px;
+
+}
+
+.subbutton
+{
+  position: fixed;
+  top: 600px;
+  left:100px;
+  right: 5px;
+  width: 60px;
+  height: 40px;
 
 }
