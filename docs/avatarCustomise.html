@@ -22,7 +22,7 @@
         
 
         <img id="ChangeImg" class="pickle" src="images/ianP.png" width="70px" height="70px">
-        <center><a href="mainPage.html"><img class="logo" src="images/pick-lLogo.png" width="50px" height="50px"></a></center>
+        <center><a href="editProfile.html"><img class="logo" src="images/pick-lLogo.png" width="50px" height="50px"></a></center>
 </head>
 
 
@@ -44,12 +44,12 @@
 <table>
 
 <tr><button class="l2" onclick="document.getElementById('Ian').src='images/barry.png'"> <img src="images/barry.png" width="75px" height="75px"> </button></tr>
-<tr><button class="cen" onclick="document.getElementById('Ian').src='images/barryPnk.png'"> <img src="images/barryPnk.png" width="75px" height="75px"> </button></tr>
-<tr><button class="r2" onclick="document.getElementById('Ian').src='images/barry alien.png'"> <img src="images/barry alien.png" width="75px" height="75px"> </button></tr>
+<tr><button class="cen" onclick="document.getElementById('Ian').src='images/PinkB.png'"> <img src="images/PinkB.png" width="75px" height="75px"> </button></tr>
+<tr><button class="r2" onclick="document.getElementById('Ian').src='images/AlienB.png'"> <img src="images/AlienB.png" width="75px" height="75px"> </button></tr>
 
 <button class="l2" onclick="document.getElementById('Ian').src='images/ianP.png'"> <img src="images/ianP.png" width="75px" height="75px"> </button>
-<button class="cen" onclick="document.getElementById('Ian').src='images/pick yllw.png'"> <img src="images/pick yllw.png" width="75px" height="75px"> </button>
-<button class="r2" onclick="document.getElementById('Ian').src='images/pick org.png'"> <img src="images/pick org.png" width="75px" height="75px"> </button></tr>
+<button class="cen" onclick="document.getElementById('Ian').src='images/YellowP.png'"> <img src="images/YellowP.png" width="75px" height="75px"> </button>
+<button class="r2" onclick="document.getElementById('Ian').src='images/OrangeP.png'"> <img src="images/OrangeP.png" width="75px" height="75px"> </button></tr>
 
 
 </table>
@@ -69,11 +69,17 @@ function changeImage()
         {
             document.getElementById("ChangeImg").src="images/barry.png";
         }
-        else if(image.src.match("barryPnk")){
-            document.getElementById("ChangeImg").src="images/barry pnk.png";
+        else if(image.src.match("PinkB")){
+            document.getElementById("ChangeImg").src="images/PinkB.png";
         }
-        else if(image.src.match("barry alien")){
-            document.getElementById("ChangeImg").src="images/barry alien.png";
+        else if(image.src.match("AlienB")){
+            document.getElementById("ChangeImg").src="images/AlienB.png";
+        }
+        else if(image.src.match("YellowP")){
+            document.getElementById("ChangeImg").src="images/YellowP.png";
+        }
+        else if(image.src.match("OrangeP")){
+            document.getElementById("ChangeImg").src="images/OrangeP.png";
         }
 
 
