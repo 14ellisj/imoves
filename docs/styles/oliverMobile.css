@@ -214,3 +214,10 @@ body {
   top: 2px;
 
 }
+
+.cntText
+{
+  position: relative;
+  bottom: 275px;
+  font-family: 'Bubblegum Sans'; font-size: 22px;
+}
