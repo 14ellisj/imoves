@@ -18,15 +18,17 @@ body {
     margin: auto;
     margin-top: -20px;
   }
-  .logo {
-    display: block;
-    margin-left: 0;
-    width: 70px;
-    height: 70px;
 
-    margin-right: auto;
-    width: 30%;
+  .cameraIndex{
+    position: absolute;
+    top: 6%;
+    left: 90%;
   }
+  .camera{
+    height: 10%;
+    width: 60%;
+  }
+
   .favouritesLogo {
     display: block;
     margin-left: auto;
