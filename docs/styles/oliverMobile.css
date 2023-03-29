@@ -18,11 +18,10 @@ body {
   }
   .logo {
     position: fixed;
-    display: block;
-    margin-left: 110px;
-    bottom: 565px;
+    left: 35%;
+    bottom: 87%;
     width: 100px;
-    height: 20%;
+    height: 15%;
 
   }
   .favouritesLogo {
@@ -174,34 +173,33 @@ body {
 .l2
 {
   position: relative;
-  top: 20px;
-  margin-left: 16px;
+  margin-top: 4%;
+  margin-left: 4%;
   display: inline-block;
 }
 
 .cen
 {
   position: relative;
-  top: 20px;
+  margin-top: 4%;
   display: inline-block;
-  margin-left: 20px; 
+  margin-left: 6%; 
 }
 
 .r2
 {
   position: relative;
-  top: 20px;
+  top: 4%;
   display: inline-block;
-  margin-left: 17px;
+  margin-left: 6%;
 
 }
 
 .subbutton
 {
   position: fixed;
-  top: 600px;
-  left:100px;
-  right: 5px;
+  margin-top: 5%;
+  left: 9%;
   width: 60px;
   height: 40px;
 
@@ -210,8 +208,8 @@ body {
 .pickle
 {
   position: fixed;
-  left: 20px;
-  top: 2px;
+  left: 7%;
+  top: 0.5%;
 
 }
 
