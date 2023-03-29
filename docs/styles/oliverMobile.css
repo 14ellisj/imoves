@@ -221,3 +221,10 @@ body {
   bottom: 275px;
   font-family: 'Bubblegum Sans'; font-size: 22px;
 }
+
+img.rounded-corners
+{
+  border-radius: 30px;
+}
+
+.button1 {border-radius: 12px;}
