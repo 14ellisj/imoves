@@ -64,10 +64,12 @@ function changeImage()
         var chngImg = document.getElementById('ChangeImg')
         if(image.src.match("ianP")){
             document.getElementById("ChangeImg").src="images/ianP.png";
+            return this.chngImg;
         }
         else if(image.src.match("barry"))
         {
             document.getElementById("ChangeImg").src="images/barry.png";
+            return this.chngImg;
         }
         else if(image.src.match("PinkB")){
             document.getElementById("ChangeImg").src="images/PinkB.png";
