@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'imoves'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C9AD8FE3C13840E7B037A30E0B079DFD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7C1187A89178424B9E28F408D11DF546 }}
           package: .
