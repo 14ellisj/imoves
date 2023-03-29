@@ -4,8 +4,8 @@ body {
     padding: 3%;
     margin: 0;
     padding: 0;
-    background-color: #D8CBDF;
-    color: #683384;
+    background-color: #ebebff;
+    color: #a4a7ff;
 }
 header {
   font-family: helvetica, arial, sans-serif;
@@ -260,4 +260,9 @@ cursor: pointer;
 
 .button1{
 background-color: #a4a7ff;
+}
+
+.button2{
+  background-color: #f44336;
+  border-radius: 50%;
 }
