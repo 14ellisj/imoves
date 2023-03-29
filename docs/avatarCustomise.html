@@ -47,7 +47,7 @@
 <tr><button class="r2" onclick="document.getElementById('Ian').src='images/AlienB.png'"> <img src="images/AlienB.png" width="75px" height="75px"> </button></tr>
 
 <button class="l2" onclick="document.getElementById('Ian').src='images/ianP.png'"> <img src="images/ianP.png" width="75px" height="75px"> </button>
-<button class="cen" onclick="document.getElementById('Ian').src='images/YellowP.png'"> <img src="images/YellowP.png" width="75px" height="75px"> </button>
+<button class="cen" onclick="document.getElementById('Ian').src='images/PinkP.png'"> <img src="images/PinkP.png" width="75px" height="75px"> </button>
 <button class="r2" onclick="document.getElementById('Ian').src='images/OrangeP.png'"> <img src="images/OrangeP.png" width="75px" height="75px"> </button></tr>
 
 
@@ -60,15 +60,15 @@
 function changeImage()
     {
         var image = document.getElementById('Ian');
-        var chngImg = document.getElementById('ChangeImg')
+        var chngImg = document.createElement("change")
         if(image.src.match("ianP")){
             document.getElementById("ChangeImg").src="images/ianP.png";
-            return this.chngImg;
+           
         }
         else if(image.src.match("barry"))
         {
             document.getElementById("ChangeImg").src="images/barry.png";
-            return this.chngImg;
+            
         }
         else if(image.src.match("PinkB")){
             document.getElementById("ChangeImg").src="images/PinkB.png";
@@ -76,8 +76,8 @@ function changeImage()
         else if(image.src.match("AlienB")){
             document.getElementById("ChangeImg").src="images/AlienB.png";
         }
-        else if(image.src.match("YellowP")){
-            document.getElementById("ChangeImg").src="images/YellowP.png";
+        else if(image.src.match("PinkP")){
+            document.getElementById("ChangeImg").src="images/PinkP.png";
         }
         else if(image.src.match("OrangeP")){
             document.getElementById("ChangeImg").src="images/OrangeP.png";
