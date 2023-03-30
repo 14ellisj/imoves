@@ -205,6 +205,17 @@ body {
 
 }
 
+.homebutton
+{
+  position: fixed;
+  margin-bottom: 80%;
+  left: 81.7%;
+  width: 40px;
+  height: 40px;
+  background-color: #a4a7ff;
+  padding: 1%;
+}
+
 .pickle
 {
   position: fixed;
