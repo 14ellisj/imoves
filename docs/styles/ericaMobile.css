@@ -222,7 +222,7 @@ filter: FlipH;
 
 #camera--trigger{
 width: 200px;
-background-color: black;
+background-color: rgb(255, 0, 0);
 color: white;
 font-size: 16px;
 border-radius: 30px;
@@ -233,6 +233,22 @@ box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 position: fixed;
 bottom: 30px;
 left: calc(50% - 100px);
+}
+
+#camera--quit{
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+  position: fixed;
+  top: 30px;
+  left:30px;
+  left: calc(50% - 100px);
 }
 
 .taken{
@@ -246,7 +262,7 @@ right: 20px;
 z-index: 2;
 }
 
-.captureIcon{
+/* .captureIcon{
 border: none;
 color: white;
 padding: 15px 32px;
@@ -256,13 +272,8 @@ display: inline-block;
 font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
-}
+} */
 
 .button1{
 background-color: #a4a7ff;
-}
-
-.button2{
-  background-color: #f44336;
-  border-radius: 50%;
 }
